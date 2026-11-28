@@ -1,0 +1,30 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sipariş Takibi | Trend Köşe</title><meta name="description" content="Trend ürünler, Türkiye&#x27;den hızlı kargo ile kapında.">
+
+<meta name="p:domain_verify" content="3d3e92be1ae95bacc736fc3b8b211daf">
+<link rel="stylesheet" href="stil.css"></head><body>
+<header><div class="ic ust"><a class="logo" href="index.html">Trend <span>Köşe</span></a>
+<nav><a href="index.html">Ürünler</a><a href="siparis-takibi.html">Sipariş Takibi</a><a href="iade-ve-cayma.html">İade</a><a href="iletisim.html">İletişim</a></nav></div></header>
+<main class="ic"><div class="metin"><h1>Sipariş Takibi</h1>
+<ol><li><b>Sipariş onayı:</b> Ödemeden hemen sonra Shopier sipariş numaranı e-posta ile gönderir.</li>
+<li><b>Hazırlık:</b> Siparişin 3 iş günü içinde paketlenip kargoya verilir.</li>
+<li><b>Kargoda:</b> Kargo firması ve <b>kargo takip numarası</b> sana e-posta/SMS ile iletilir.</li>
+<li><b>Teslimat:</b> Gönderiler genellikle 1-3 iş günü içinde teslim edilir.</li></ol>
+<h2>Kargom nerede?</h2>
+<p>Gönderilerimiz <b>Sürat Kargo</b> ile yapılır. Takip numaranı yaz, numara kopyalanır ve Sürat Kargo sorgulama
+sayfası açılır; numarayı yapıştırıp <i>Sorgula</i>'ya bas.</p>
+<form id="takip" class="takip"><input id="no" inputmode="numeric" autocomplete="off" placeholder="Kargo takip numarası" required>
+<button class="btn" type="submit">Sorgula</button></form>
+<script>document.getElementById('takip').onsubmit=function(ev){ev.preventDefault();
+var n=document.getElementById('no').value.replace(/\s/g,'');if(!n)return;
+try{navigator.clipboard.writeText(n)}catch(h){}
+window.open('https://www.suratkargo.com.tr/KargoTakip/?kargotakipno='+encodeURIComponent(n),'_blank','noopener');};</script>
+<h2>Takip numaram gelmedi</h2>
+<p>Siparişini <a href="https://www.shopier.com/trendkose1" target="_blank" rel="noopener">Shopier mağaza sayfamızın</a>
+en altındaki <b>Sipariş Takibi</b> bölümünden sipariş numaranla sorgulayabilirsin. Siparişin 3 iş gününden uzun
+süredir kargoya verilmediyse trendkose1@gmail.com adresine sipariş numaranla yaz; aynı gün dönüyoruz.</p>
+<p class="not">Güvenliğin için sipariş ve adres bilgilerin bu sitede gösterilmez.</p></div></main>
+<footer><div class="ic"><p><a href="mesafeli-satis-sozlesmesi.html">Mesafeli Satış Sözleşmesi</a>
+<a href="siparis-takibi.html">Sipariş Takibi</a><a href="iade-ve-cayma.html">İade ve Cayma</a><a href="kvkk.html">KVKK</a><a href="iletisim.html">İletişim</a></p>
+<p>© 2026 Trend Köşe · Ödemeler Shopier güvencesiyle alınır.</p></div></footer></body></html>

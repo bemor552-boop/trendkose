@@ -24,6 +24,8 @@ nav a{margin-left:18px;text-decoration:none;color:var(--soluk);font-size:.95rem}
 .btn{display:inline-block;background:var(--vurgu);color:#fff;text-decoration:none;font-weight:700;padding:14px 28px;border-radius:12px;margin:18px 0 8px;font-size:1.05rem}
 .btn:hover{background:var(--vurgu2)}.btn.pasif{background:#bbb;pointer-events:none}
 ul.ozellik{padding-left:18px}.not{font-size:.85rem;color:var(--soluk)}
+.takip{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.takip input{flex:1;min-width:200px;padding:13px;font-size:1rem;border:1px solid #ccc;border-radius:12px}
+.takip .btn{margin:0;border:0;cursor:pointer}
 .uyari{background:#fff4d6;border:1px solid #f0d58a;border-radius:10px;padding:10px 14px;font-size:.9rem;margin:16px 0}
 .metin{max-width:760px;padding:36px 0 56px}.metin h2{margin-top:28px}
 footer{border-top:1px solid var(--cizgi);background:var(--kart);padding:28px 0;font-size:.88rem;color:var(--soluk)}
