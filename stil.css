@@ -16,7 +16,11 @@ nav a{margin-left:18px;text-decoration:none;color:var(--soluk);font-size:.95rem}
 .detay{display:grid;grid-template-columns:1fr 1fr;gap:36px;padding:36px 0 56px}
 @media(max-width:760px){.detay{grid-template-columns:1fr}nav a{margin-left:12px}}
 .galeri img,.galeri svg{width:100%;border-radius:14px;border:1px solid var(--cizgi);background:#f0eee8}
-.kucuk{display:flex;gap:8px;margin-top:8px;overflow-x:auto}.kucuk img{width:72px;height:72px;object-fit:cover;border-radius:8px;border:1px solid var(--cizgi)}
+.kucuk{display:flex;gap:8px;margin-top:8px;overflow-x:auto}.kucuk img{width:72px;height:72px;flex:none;object-fit:cover;border-radius:8px;border:2px solid var(--cizgi);cursor:pointer;opacity:.75}
+.kucuk img.secili,.kucuk img:hover{border-color:var(--vurgu);opacity:1}
+.ana{position:relative}.ana img{aspect-ratio:1;object-fit:contain;background:#fff;touch-action:pan-y}
+.ok{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:50%;border:0;background:rgba(255,255,255,.9);box-shadow:0 2px 8px rgba(0,0,0,.15);font-size:1.8rem;line-height:1;cursor:pointer;color:var(--yazi)}
+.ok.sol{left:10px}.ok.sag{right:10px}.ok:hover{background:#fff}
 .btn{display:inline-block;background:var(--vurgu);color:#fff;text-decoration:none;font-weight:700;padding:14px 28px;border-radius:12px;margin:18px 0 8px;font-size:1.05rem}
 .btn:hover{background:var(--vurgu2)}.btn.pasif{background:#bbb;pointer-events:none}
 ul.ozellik{padding-left:18px}.not{font-size:.85rem;color:var(--soluk)}

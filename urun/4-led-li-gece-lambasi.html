@@ -6,7 +6,15 @@
 <link rel="stylesheet" href="../stil.css"></head><body>
 <header><div class="ic ust"><a class="logo" href="../index.html">Trend <span>Köşe</span></a>
 <nav><a href="../index.html">Ürünler</a><a href="../iade-ve-cayma.html">İade</a><a href="../iletisim.html">İletişim</a></nav></div></header>
-<main class="ic"><div class="detay"><div class="galeri"><img src="https://www.uluithalat.com/storage/feed-import/ai/d22029e9-9468-4662-89ab-c0e76f7fa0a6.webp" alt="4 LED&#x27;li Gece Lambası" loading="lazy"><div class="kucuk"><img src="https://www.uluithalat.com/storage/feed-import/products/8d3dc726-7a11-48d1-b95a-27d225877699.webp" alt="" loading="lazy"></div></div>
+<main class="ic"><div class="detay"><div class="galeri"><div class="ana"><img id="ana" src="https://www.uluithalat.com/storage/feed-import/ai/d22029e9-9468-4662-89ab-c0e76f7fa0a6.webp" alt="4 LED&#x27;li Gece Lambası"><button class="ok sol" aria-label="Önceki görsel">&#8249;</button><button class="ok sag" aria-label="Sonraki görsel">&#8250;</button></div><div class="kucuk"><img src="https://www.uluithalat.com/storage/feed-import/ai/d22029e9-9468-4662-89ab-c0e76f7fa0a6.webp" alt="4 LED&#x27;li Gece Lambası görsel 1" data-i="0" class=secili loading="lazy"><img src="https://www.uluithalat.com/storage/feed-import/products/8d3dc726-7a11-48d1-b95a-27d225877699.webp" alt="4 LED&#x27;li Gece Lambası görsel 2" data-i="1" loading="lazy"></div><script>(function(){var a=document.getElementById('ana'),k=[].slice.call(document.querySelectorAll('.kucuk img')),n=0;
+function git(i){n=(i+k.length)%k.length;a.src=k[n].src;k.forEach(function(x,j){x.classList.toggle('secili',j===n)});
+k[n].scrollIntoView({block:'nearest',inline:'nearest'})}
+k.forEach(function(x,i){x.addEventListener('click',function(){git(i)})});
+document.querySelector('.ok.sol').onclick=function(){git(n-1)};document.querySelector('.ok.sag').onclick=function(){git(n+1)};
+document.addEventListener('keydown',function(e){if(e.key==='ArrowLeft')git(n-1);if(e.key==='ArrowRight')git(n+1)});
+var x0=null;a.addEventListener('touchstart',function(e){x0=e.touches[0].clientX},{passive:true});
+a.addEventListener('touchend',function(e){if(x0===null)return;var d=e.changedTouches[0].clientX-x0;if(Math.abs(d)>40)git(d<0?n+1:n-1);x0=null});
+})();</script></div>
 <div><h1>4 LED&#x27;li Gece Lambası</h1><p class="fiyat">169,90 TL<span class="eski">239,90 TL</span></p>
 <p>Karanlık ortamlarda pratik aydınlatma sağlayan 4 LED&#x27;li gece lambası ile yaşam alanlarınızı kolayca aydınlatın. Kompakt tasarımı sayesinde evinizin dilediğiniz köşesinde zahmetsizce kullanabilirsiniz.</p><ul class="ozellik"><li>4 LED&#x27;li aydınlatma</li><li>Gece lambası tasarımı</li><li>Kolay kullanım</li></ul><a class="btn" href="https://www.shopier.com/53303565" rel="noopener">Hemen Satın Al</a>
 <p class="not">Türkiye'den gönderim · 3 iş günü içinde kargoda · 14 gün koşulsuz cayma hakkı ·
